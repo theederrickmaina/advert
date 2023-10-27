@@ -1,0 +1,142 @@
+
+.section-p1 {
+    padding:40px 80px;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#navbar {
+    position: relative;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.slideshow-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.slideshow-container img{
+
+    width: 100%;
+    height: auto;
+
+}
+
+.slide{
+
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.slide img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+footer{
+    background-color: red;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    bottom: -625px;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+footer .logo{
+    margin-bottom: 30px;
+}
+
+#footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer h4{
+
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p {
+
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+footer .follow{
+    margin-top: 20px;
+}
+
+footer .follow i{
+
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .follow i:hover,
+footer a:hover{
+    color: #088178;
+}
+
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}
